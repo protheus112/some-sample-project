@@ -1,0 +1,43 @@
+html {
+    font-size: 20px; /*px pixels, base font size*/
+    font-family: 'Raleway', sans-serif; /*can be a font defined in head*/
+    background-color:rgb(50, 34, 119);
+    l
+
+}
+body {
+    width: 1080px;
+    margin: 0 auto;
+
+    background-color: rgb(221, 188, 78);
+    overflow: hidden;
+    padding: 0 20px 20px 20px;
+    border: 2px outset black;
+}   
+body:hover {
+    border: 2px inset black;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+a:hover {
+    color: blueviolet;
+}
+img {
+    display: block;
+    clip-path: inset(5px 5px 5px 5px);
+    margin: 0 auto;
+}
+#li3, #li4 {
+    color: darkred;
+}
+li {
+    color: blue;
+}
+#link1 {
+    color: grey;
+}
